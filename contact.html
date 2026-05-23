@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Millani Khabir</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">&lt;Millani<span>.codes</span>/&gt;</a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="projects.html" class="nav-link">Projects</a></li>
+                <li><a href="skills.html" class="nav-link">Skills</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="assets/resume.pdf" class="btn btn-nav" download="millani_khabir.pdf">Resume <i class="fa-solid fa-download"></i></a></li>
+            </ul>
+            <div class="hamburger"><i class="fa-solid fa-bars"></i></div>
+        </div>
+    </nav>
+
+    <main class="container section page-margin animate-fade">
+        <div class="text-center">
+            <span class="section-badge">Get In Touch</span>
+            <h1 class="page-title">Let's Connect</h1>
+            <p class="section-subtitle">I'm actively seeking opportunities or collaborative tech spaces. Drop a line!</p>
+        </div>
+
+        <div class="contact-grid">
+            <!-- Direct Channels Info Card -->
+            <div class="contact-info">
+                <h3>Contact Coordinates</h3>
+                <p>Feel free to reach out via email or connect with me across my tech channels.</p>
+                
+                <div class="info-links">
+                    <a href="mailto:millaniyasirahkhabir@gmail.com" class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>millaniyasirahkhabir@gmail.com</span>[cite: 1]
+                    </a>
+                    <a href="https://linkedin.com/in/millanik" target="_blank" class="info-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <span>linkedin.com/in/millanik</span>[cite: 1]
+                    </a>
+                    <a href="https://github.com/millanik" target="_blank" class="info-item">
+                        <i class="fa-brands fa-github"></i>
+                        <span>github.com/millanik</span>[cite: 1]
+                    </a>
+                </div>
+            </div>
+
+            <!-- Contact Input Form Layout -->
+            <div class="contact-form-card">
+                <form id="portfolio-form" onsubmit="event.preventDefault(); alert('Message noted! (Form placeholder configured correctly.)');">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" required placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" required placeholder="Email Address">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" rows="5" required placeholder="Hey Millani, let's chat about a project..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary full-width">Send Signal <i class="fa-solid fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Millani Khabir. Built with love, code, and caffeine.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/millanik" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com/in/millanik" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
